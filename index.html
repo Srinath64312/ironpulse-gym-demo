@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IronPulse Fitness Hyderabad - strength, conditioning and personal training.">
+  <title>IronPulse Fitness | Hyderabad</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:#0b0f14;color:#f5f5f5;line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(11,15,20,.94);backdrop-filter:blur(8px);border-bottom:1px solid #202832}
+    nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .logo{font-size:1.35rem;font-weight:800;letter-spacing:.5px}
+    .logo span{color:#e63946}
+    .nav-links{display:flex;gap:24px;font-size:.95rem}
+    .nav-links a:hover{color:#e63946}
+    .hero{min-height:78vh;display:grid;place-items:center;text-align:center;padding:80px 0;background:
+      radial-gradient(circle at 50% 30%,rgba(230,57,70,.18),transparent 38%),
+      linear-gradient(135deg,#101720,#090c10)}
+    .badge{display:inline-block;border:1px solid #343e49;border-radius:999px;padding:7px 14px;color:#c8d0d8;font-size:.82rem;margin-bottom:18px}
+    h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.02;max-width:900px;margin:auto}
+    h1 span{color:#e63946}
+    .hero p{max-width:650px;margin:22px auto;color:#b9c2cc;font-size:1.08rem}
+    .buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:13px 21px;border-radius:8px;font-weight:700;border:1px solid #e63946}
+    .primary{background:#e63946}
+    .secondary{background:transparent}
+    .btn:hover{transform:translateY(-1px)}
+    section{padding:72px 0}
+    .section-title{text-align:center;margin-bottom:38px}
+    .section-title h2{font-size:2rem}
+    .section-title p{color:#9ca7b2;margin-top:7px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#111820;border:1px solid #252f3a;border-radius:14px;padding:26px}
+    .card h3{margin-bottom:9px}
+    .card p{color:#aeb8c2}
+    .icon{font-size:1.8rem;margin-bottom:12px}
+    .about{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+    .about-box{background:#111820;border:1px solid #252f3a;border-radius:16px;padding:30px}
+    .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .stat{padding:20px;border-radius:12px;background:#171f28;text-align:center}
+    .stat strong{display:block;font-size:1.8rem;color:#e63946}
+    .contact{background:#111820;border-top:1px solid #252f3a;border-bottom:1px solid #252f3a}
+    .contact-box{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+    .contact-item{padding:16px 0;border-bottom:1px solid #29333d}
+    .contact-item:last-child{border-bottom:0}
+    .label{color:#8995a1;font-size:.8rem;text-transform:uppercase;letter-spacing:1px}
+    .value{margin-top:3px}
+    footer{padding:25px 0;color:#7f8a95;text-align:center;font-size:.9rem}
+    .whatsapp{position:fixed;right:20px;bottom:20px;background:#25d366;color:#07150c;padding:13px 18px;border-radius:999px;font-weight:800;box-shadow:0 8px 30px rgba(0,0,0,.35)}
+    @media(max-width:760px){
+      .nav-links{display:none}
+      .grid,.about,.contact-box{grid-template-columns:1fr}
+      section{padding:55px 0}
+      .hero{min-height:72vh;padding:60px 0}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="#">IRON<span>PULSE</span></a>
+      <div class="nav-links">
+        <a href="#programs">Programs</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="badge">Hyderabad • Strength • Conditioning • Personal Training</div>
+      <h1>Train stronger.<br><span>Live stronger.</span></h1>
+      <p>Personalized training and a focused gym environment designed to help you build strength, improve fitness and stay consistent.</p>
+      <div class="buttons">
+        <a class="btn primary" href="https://wa.me/919999999999?text=Hi%20IronPulse%2C%20I%27d%20like%20to%20know%20about%20membership." target="_blank">Join on WhatsApp</a>
+        <a class="btn secondary" href="#programs">View Programs</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs">
+    <div class="container">
+      <div class="section-title">
+        <h2>Programs built around you</h2>
+        <p>Choose a starting point and we'll help you plan the next step.</p>
+      </div>
+      <div class="grid">
+        <div class="card"><div class="icon">🏋️</div><h3>Strength Training</h3><p>Progressive workouts focused on strength, technique and sustainable progress.</p></div>
+        <div class="card"><div class="icon">🔥</div><h3>Fat Loss</h3><p>Structured training and practical guidance for improving fitness and body composition.</p></div>
+        <div class="card"><div class="icon">⚡</div><h3>Personal Training</h3><p>One-to-one coaching with sessions adapted to your goals and experience level.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about">
+      <div>
+        <div class="section-title" style="text-align:left;margin-bottom:18px">
+          <h2>A gym that keeps things simple.</h2>
+        </div>
+        <p style="color:#aeb8c2">IronPulse Fitness is a demo local-business brand created to showcase a fast, modern website for a Hyderabad gym. The same website structure can be customized for a real business with its own logo, photos, services, address and contact details.</p>
+      </div>
+      <div class="about-box">
+        <div class="stats">
+          <div class="stat"><strong>6+</strong><span>Training areas</span></div>
+          <div class="stat"><strong>1:1</strong><span>Coaching option</span></div>
+          <div class="stat"><strong>7AM</strong><span>Opening time</span></div>
+          <div class="stat"><strong>6AM</strong><span>Early access</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Visit IronPulse</h2>
+        <p>Replace these demo details with the customer's real information.</p>
+      </div>
+      <div class="contact-box">
+        <div>
+          <div class="contact-item"><div class="label">Location</div><div class="value">Gachibowli, Hyderabad, Telangana</div></div>
+          <div class="contact-item"><div class="label">Phone</div><div class="value">+91 99999 99999</div></div>
+        </div>
+        <div>
+          <div class="contact-item"><div class="label">Hours</div><div class="value">Mon–Sat: 6:00 AM – 10:00 PM</div></div>
+          <div class="contact-item"><div class="label">Email</div><div class="value">hello@ironpulse.example</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="whatsapp" href="https://wa.me/919999999999?text=Hi%20IronPulse%2C%20I%27d%20like%20to%20know%20about%20membership." target="_blank">WhatsApp</a>
+
+<footer>
+  <div class="container">© 2026 IronPulse Fitness • Demo website</div>
+</footer>
+</body>
+</html>
